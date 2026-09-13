@@ -11,7 +11,7 @@ export const testMCPController = async (req: Request, res: Response) => {
     name: "recommend_cats",
     arguments: {
       kidsFriendly: true,
-      apartmentFriendly: false,
+      apartmentFriendly: true,
     },
   });
 
